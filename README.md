@@ -35,4 +35,8 @@ BlogList is a web application designed for users to create, manage, and interact
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone git@github.com:kellylino/BlogList.git
+2. Install dependencies and Start the development server:
+   ```bash
+   npm install
+   npm start 
