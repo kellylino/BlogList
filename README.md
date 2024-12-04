@@ -37,7 +37,7 @@ BlogList is a web application designed for users to create, manage, and interact
    ```bash
    git clone git@github.com:kellylino/BlogList.git
 2. Set Up Environment Variables:
-   plaintext
+   ```plaintext
    PORT=3001/any port
    MONGODB_URI=<your-mongodb-uri>
    JWT_SECRET=<your-secret-key>   
