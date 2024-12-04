@@ -22,6 +22,16 @@ BlogList is a web application designed for users to create, manage, and interact
 - **Node.js**: Server-side runtime.
 - **Express.js**: Backend framework.
 
+### Cypress Testing
+
+Cypress is used in this project for end-to-end testing to ensure the application behaves as expected. The test suite covers key functionalities such as:
+
+- **Login and Authentication**: Verifies that users can log in with correct credentials and handles incorrect login attempts.
+- **Blog Creation**: Ensures that users can create new blogs with the required fields and the blog appears correctly on the app.
+- **Like and Remove Blog**: Validates the like functionality and ensures blogs can be removed by the creator.
+- **Remove Button Visibility**: Confirms that the "Remove" button is only visible to the blog creator.
+- **Sorting Blogs by Likes**: Verifies that blogs are correctly ordered based on the number of likes.
+
 ### Database
 - **MongoDB**: NoSQL database for storing user and blog data.
 
