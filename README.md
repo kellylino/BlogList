@@ -21,15 +21,9 @@ BlogList is a web application designed for users to create, manage, and interact
 ### Backend
 - **Node.js**: Server-side runtime.
 - **Express.js**: Backend framework.
-- **JSON-Server**: Mock backend for development.
-- **GraphQL**: Advanced query handling.
 
 ### Database
 - **MongoDB**: NoSQL database for storing user and blog data.
-
-### DevOps
-- **Docker**: Containerized deployment.
-- **CI/CD**: Continuous integration and delivery.
 
 ## Installation
 
