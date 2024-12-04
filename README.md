@@ -36,7 +36,13 @@ BlogList is a web application designed for users to create, manage, and interact
 1. Clone the repository:
    ```bash
    git clone git@github.com:kellylino/BlogList.git
-2. Install dependencies and Start the development server:
+2. Set Up Environment Variables:
+   plaintext
+   PORT=3001/any port
+   MONGODB_URI=<your-mongodb-uri>
+   JWT_SECRET=<your-secret-key>   
+4. Install dependencies and Start the development server:
    ```bash
    npm install
-   npm start 
+   npm start
+   
